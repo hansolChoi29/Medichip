@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Header } from "@/components/Common/Header";
+import HeaderWrapper from "@/components/Common/HeaderWrapper";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -14,9 +14,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ko">
-      <body className="p-4">
-        <Header />
-        <main className="flex-grow">{children}</main>
+      <body className="flex flex-col items-center p-7">
+        <HeaderWrapper />
+        <main className="w-full max-w-4xl flex-grow">{children}</main>
       </body>
     </html>
   );

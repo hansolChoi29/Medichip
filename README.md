@@ -54,7 +54,7 @@ medichip
 │  └─ window.svg
 ├─ README.md
 ├─ src
-│  ├─ apps
+│  ├─ app
 │  │  ├─ emergency
 │  │  │  └─ page.tsx
 │  │  ├─ favicon.ico

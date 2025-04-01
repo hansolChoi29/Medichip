@@ -1,3 +1,3 @@
 export function EmergencyPage() {
-  return <div>emergency</div>;
+  return <div>emergencyyyy</div>;
 }

@@ -22,6 +22,16 @@
       "@/*": ["./src/*"]
     }
   },
+  "compilerOptions": {
+    "paths": {
+      "@/*": ["./src/*"],
+      "@/types/*": ["./src/shared/types/*"],
+      "@/constants/*": ["./src/shared/constants/*"],
+      "@/utils/*": ["./src/shared/utils/*"],
+      "@/hooks/*": ["./src/shared/hooks/*"],
+      "@/libs/*": ["./src/shared/libs/*"]
+    }
+  },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
   "exclude": ["node_modules"]
 }

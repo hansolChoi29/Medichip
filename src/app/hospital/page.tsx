@@ -1,3 +1,3 @@
 export function HospitalPage() {
-  return <div>hospitalpageee</div>;
+  return <div>hospitalpageeeee</div>;
 }

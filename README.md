@@ -41,17 +41,18 @@
 
 ```
 medichip
+├─ components.json
 ├─ eslint.config.mjs
 ├─ next.config.ts
 ├─ package-lock.json
 ├─ package.json
 ├─ postcss.config.mjs
 ├─ public
-│  ├─ file.svg
-│  ├─ globe.svg
-│  ├─ next.svg
-│  ├─ vercel.svg
-│  └─ window.svg
+│  └─ icons
+│     ├─ emergency.svg
+│     ├─ hospital.svg
+│     ├─ location.svg
+│     └─ search.svg
 ├─ README.md
 ├─ src
 │  ├─ app
@@ -67,27 +68,36 @@ medichip
 │  │  │  └─ page.tsx
 │  │  └─ page.tsx
 │  ├─ components
+│  │  ├─ ClientQueryProvider.tsx
 │  │  ├─ Common
 │  │  │  ├─ Footer.tsx
-│  │  │  └─ Header.tsx
+│  │  │  ├─ Header.tsx
+│  │  │  └─ HeaderWrapper.tsx
 │  │  ├─ Emergency
 │  │  │  ├─ EmergencyDetail.tsx
 │  │  │  └─ EmergencyList.tsx
 │  │  ├─ Hospital
 │  │  │  ├─ HospitalDetail.tsx
 │  │  │  └─ HospitalList.tsx
-│  │  └─ Map
-│  │     └─ KakaoMap.tsx
+│  │  ├─ Map
+│  │  │  └─ KakaoMap.tsx
+│  │  └─ ui
+│  │     ├─ button.tsx
+│  │     ├─ dropdown-menu.tsx
+│  │     └─ input.tsx
 │  ├─ lib
 │  │  ├─ apis
 │  │  │  ├─ bedStatusApi.ts
 │  │  │  ├─ emergencyApi.ts
 │  │  │  └─ hospitalApi.ts
-│  │  └─ utils
-│  │     ├─ distanceCalc.ts
-│  │     └─ taxiFareCalc.ts
+│  │  ├─ cn.ts
+│  │  ├─ utils
+│  │  │  ├─ distanceCalc.ts
+│  │  │  └─ taxiFareCalc.ts
+│  │  └─ utils.ts
 │  └─ store
 │     └─ locationStore.tsx
+├─ tailwind.config.js
 └─ tsconfig.json
 
 ```
